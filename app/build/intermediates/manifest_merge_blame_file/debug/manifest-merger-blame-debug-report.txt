@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bobbysandroidstartersolution"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] C:\Users\Felix\.gradle\caches\transforms-3\d1e4a685b1001794fbcfe4ee9c157a7e\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.bobbysandroidstartersolution.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] C:\Users\Felix\.gradle\caches\transforms-3\d1e4a685b1001794fbcfe4ee9c157a7e\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] C:\Users\Felix\.gradle\caches\transforms-3\d1e4a685b1001794fbcfe4ee9c157a7e\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.bobbysandroidstartersolution.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] C:\Users\Felix\.gradle\caches\transforms-3\d1e4a685b1001794fbcfe4ee9c157a7e\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] C:\Users\Felix\.gradle\caches\transforms-3\d1e4a685b1001794fbcfe4ee9c157a7e\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:5:5-46:19
+18        android:allowBackup="true"
+18-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.12.0] C:\Users\Felix\.gradle\caches\transforms-3\d1e4a685b1001794fbcfe4ee9c157a7e\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.BobbysAndroidStarterSolution" >
+29-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:13:9-66
+30        <activity
+30-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:15:9-25:20
+31            android:name="com.example.bobbysandroidstartersolution.MainActivity"
+31-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:16:13-41
+32            android:exported="true"
+32-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:17:13-36
+33            android:label="@string/title_activity_main"
+33-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:18:13-56
+34            android:theme="@style/Theme.BobbysAndroidStarterSolution" >
+34-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:19:13-70
+35            <intent-filter>
+35-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:21:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:22:17-69
+36-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:22:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:23:17-77
+38-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:26:9-35:20
+42            android:name="com.example.bobbysandroidstartersolution.HighScoreActivity"
+42-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:27:13-46
+43            android:exported="true"
+43-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:28:13-36
+44            android:label="HighScoreActivity"
+44-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:29:13-46
+45            android:theme="@style/Theme.BobbysAndroidStarterSolution" >
+45-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:30:13-70
+46            <intent-filter>
+46-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:21:13-24:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:22:17-69
+47-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:22:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:23:17-77
+49-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:23:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:36:9-45:20
+53            android:name="com.example.bobbysandroidstartersolution.StartGame"
+53-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:37:13-38
+54            android:exported="true"
+54-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:38:13-36
+55            android:label="StartGameActivity"
+55-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:39:13-46
+56            android:theme="@style/Theme.BobbysAndroidStarterSolution" >
+56-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:40:13-70
+57            <intent-filter>
+57-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:21:13-24:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:22:17-69
+58-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:22:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:23:17-77
+60-->C:\Users\Felix\Desktop\Android\BobbysAndroidStarterSolution\app\src\main\AndroidManifest.xml:23:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Felix\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Felix\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+66            android:authorities="com.example.bobbysandroidstartersolution.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Felix\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Felix\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Felix\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Felix\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Felix\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Felix\.gradle\caches\transforms-3\f65ecc3788deedbb02a8d14b7a9fa4dd\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Felix\.gradle\caches\transforms-3\f65ecc3788deedbb02a8d14b7a9fa4dd\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Felix\.gradle\caches\transforms-3\f65ecc3788deedbb02a8d14b7a9fa4dd\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <uses-library
+79-->[androidx.window:window:1.0.0] C:\Users\Felix\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+80            android:name="androidx.window.extensions"
+80-->[androidx.window:window:1.0.0] C:\Users\Felix\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0] C:\Users\Felix\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+82        <uses-library
+82-->[androidx.window:window:1.0.0] C:\Users\Felix\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+83            android:name="androidx.window.sidecar"
+83-->[androidx.window:window:1.0.0] C:\Users\Felix\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0] C:\Users\Felix\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+85
+86        <receiver
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+87            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+88            android:directBootAware="false"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+89            android:enabled="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+90            android:exported="true"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+91            android:permission="android.permission.DUMP" >
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+93                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+96                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+99                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+102                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Felix\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+103            </intent-filter>
+104        </receiver>
+105    </application>
+106
+107</manifest>

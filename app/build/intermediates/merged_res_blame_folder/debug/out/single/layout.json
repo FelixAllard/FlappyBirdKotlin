@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Felix\\.gradle\\daemon\\8.2\\com.example.bobbysandroidstartersolution.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Felix\\.gradle\\daemon\\8.2\\com.example.bobbysandroidstartersolution.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.bobbysandroidstartersolution.app-mergeDebugResources-46:/layout/high_score_layout.xml",
+        "source": "com.example.bobbysandroidstartersolution.app-main-49:/layout/high_score_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Felix\\.gradle\\daemon\\8.2\\com.example.bobbysandroidstartersolution.app-mergeDebugResources-46:\\layout\\start_game_layout.xml",
+        "source": "C:\\Users\\Felix\\.gradle\\daemon\\8.2\\com.example.bobbysandroidstartersolution.app-main-49:\\layout\\start_game_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Felix\\.gradle\\daemon\\8.2\\com.example.bobbysandroidstartersolution.app-mergeDebugResources-46:\\layout\\high_score_layout.xml",
+        "source": "C:\\Users\\Felix\\.gradle\\daemon\\8.2\\com.example.bobbysandroidstartersolution.app-main-49:\\layout\\high_score_layout.xml"
+    }
+]

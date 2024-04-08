@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_image">
+
+
+    <ListView
+        android:id="@+id/high_score_list"
+        style="@style/Widget.AppCompat.ListView"
+        android:layout_width="0dp"
+        android:layout_height="631dp"
+        android:background="#700B0B"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_marginBottom="0px"
+        />
+
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="284dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="0px"
+        android:text="High Scores!"
+        android:textSize="100px"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
